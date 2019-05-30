@@ -57,7 +57,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <!--依赖管理1-->
+    <!--依赖管理-->
     <dependencyManagement>
         <dependencies>
             <dependency>

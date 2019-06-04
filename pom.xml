@@ -57,6 +57,23 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Internal Snapshots</name>
+            <url>
+                http://nexus.fengxiaomi.com:8081/nexus/content/repositories/snapshots
+            </url>
+        </snapshotRepository>
+        <repository>
+            <id>opensesame.releases.account</id>
+            <name>Internal Releases</name>
+            <url>
+                http://nexus.fengxiaomi.com:8081/nexus/content/repositories/releases
+            </url>
+        </repository>
+    </distributionManagement>
+
     <!--依赖管理-->
     <dependencyManagement>
         <dependencies>

@@ -80,7 +80,7 @@
                 <version>${z_boot_service.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.boot.commons</groupId>
+                <groupId>com.boot.com.alibabacloud.commons</groupId>
                 <artifactId>z_boot_commons</artifactId>
                 <version>${z_boot_commons.version}</version>
             </dependency>
